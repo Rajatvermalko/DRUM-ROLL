@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: #283149;
+  background-color: #4C3A51;
 }
 
 h1 {
@@ -8,7 +8,16 @@ h1 {
   color: #DBEDF3;
   font-family: "Arvo", cursive;
   text-shadow: 3px 0 #DA0463;
-
+  font-weight: bold;
+  word-spacing: 1cm;
+}
+h2{
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+  font-weight: lighter;
+  word-spacing: 1cm;
 }
 
 footer {
@@ -17,7 +26,7 @@ footer {
 }
 
 .w {
-
+  
 }
 
 .a {
