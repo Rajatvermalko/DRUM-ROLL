@@ -25,6 +25,7 @@ footer {
   font-family: sans-serif;
 }
 
+
 .w {
   background-image: url("images/tom1.png");
 
@@ -67,8 +68,9 @@ footer {
 }
 
 .pressed {
-  box-shadow: 0 3px 4px 0 #DBEDF3;
+  box-shadow: 0 6px 8px 0 #DBEDF3;
   opacity: 0.5;
+  
 }
 
 .red {

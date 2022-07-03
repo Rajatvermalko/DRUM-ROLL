@@ -4,9 +4,11 @@ for (var i = 0; i < value; i++) {
     document.querySelectorAll(".drum")[i].addEventListener("click", function () {
         var valuechecker = this.innerHTML;
         makesound(valuechecker);
+        buttonAnimation(valuechecker);
     });
     document.addEventListener("keydown", function(event){
         makesound(event.key);
+        buttonAnimation(event.key);
     });
 }
 function makesound(key){
@@ -43,4 +45,9 @@ function makesound(key){
             break;
 
     }
+}
+
+function buttonAnimation(keypressed){
+var buttonani = document.querySelector("."+keypressed)
+buttonani.classList.add(".pressed");
 }
