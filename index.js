@@ -52,5 +52,5 @@ var buttonani = document.querySelector("."+keypressed)
 buttonani.classList.add("pressed");
 setTimeout(function(){
     buttonani.classList.remove("pressed");
-},100, )
+},100);
 }
