@@ -49,5 +49,8 @@ function makesound(key){
 
 function buttonAnimation(keypressed){
 var buttonani = document.querySelector("."+keypressed)
-buttonani.classList.add(".pressed");
+buttonani.classList.add("pressed");
+setTimeout(function(){
+    buttonani.classList.remove("pressed");
+},100, )
 }
